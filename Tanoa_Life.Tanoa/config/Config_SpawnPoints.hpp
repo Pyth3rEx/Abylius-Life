@@ -16,7 +16,7 @@ class CfgSpawnPoints {
                 displayName = "Kavala";
                 spawnMarker = "civ_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "!license_civ_rebel";
+                conditions = "";
             };
 
             class Athira {
@@ -126,16 +126,17 @@ class CfgSpawnPoints {
     class Tanoa {
 
         class Civilian {
-            class Georgetown {
-                displayName = "Georgetown";
-                spawnMarker = "civ_spawn_1";
-                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
-                conditions = "!license_civ_rebel";
-            };
 
             class Balavu {
                 displayName = "Balavu";
                 spawnMarker = "civ_spawn_3";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "";
+            };
+
+            class Georgetown {
+                displayName = "Georgetown";
+                spawnMarker = "civ_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
@@ -150,6 +151,13 @@ class CfgSpawnPoints {
             class Lijnhaven {
                 displayName = "Lijnhaven";
                 spawnMarker = "civ_spawn_4";
+                icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
+                conditions = "";
+            };
+
+			class fortnewhaven {
+                displayName = "Fort New Haven";
+                spawnMarker = "civ_spawn_fort";
                 icon = "\a3\ui_f\data\map\MapControl\watertower_ca.paa";
                 conditions = "";
             };
@@ -177,6 +185,13 @@ class CfgSpawnPoints {
         };
 
         class Cop {
+            class GeorgetownHQ {
+                displayName = "Georgetown HQ";
+                spawnMarker = "cop_spawn_2";
+                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
+                conditions = "";
+            };
+
             class NAirport {
                 displayName = $STR_SP_Cop_Air_N;
                 spawnMarker = "cop_spawn_1";
@@ -188,13 +203,6 @@ class CfgSpawnPoints {
                 displayName = $STR_SP_Cop_Air_SW;
                 spawnMarker = "cop_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\fuelstation_ca.paa";
-                conditions = "";
-            };
-
-            class GeorgetownHQ {
-                displayName = "Georgetown HQ";
-                spawnMarker = "cop_spawn_2";
-                icon = "\a3\ui_f\data\map\GroupIcons\badge_rotate_0_gs.paa";
                 conditions = "";
             };
 
@@ -217,21 +225,21 @@ class CfgSpawnPoints {
 
             class SEHospital {
                 displayName = $STR_SP_EMS_SE;
-                spawnMarker = "medic_spawn_1";
+                spawnMarker = "med_spawn_1";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
 
             class TanoukaHospital {
                 displayName = $STR_SP_EMS_Tan;
-                spawnMarker = "medic_spawn_2";
+                spawnMarker = "med_spawn_3";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };
 
             class NEAirportHospital {
                 displayName = $STR_SP_EMS_NEair;
-                spawnMarker = "medic_spawn_3";
+                spawnMarker = "med_spawn_2";
                 icon = "\a3\ui_f\data\map\MapControl\hospital_ca.paa";
                 conditions = "";
             };

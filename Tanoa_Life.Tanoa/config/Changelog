@@ -1,0 +1,27 @@
+v 1.0.0
+
+-Changed order of display for Spawnpoints
+
+-Added "U_B_GEN_Soldier_F" in /Config_Clothing.hpp
+-Added "U_B_GEN_Commander_F" in /Config_Clothing.hpp
+-Added "H_Beret_gen_F" in /Config_Clothing.hpp
+-Added "H_Beret_Colonel" in /Config_Clothing.hpp
+-Added "H_Beret_02" in /Config_Clothing.hpp
+
+-Added "class <GIGN>" in /Config_Licenses.hpp
+-Added "class <B_GEN_Offroad_01_gen_F>" in /Config_Vehicles.hpp
+
+-Edited "H_Beret_blk_POLICE" in /Config_Clothing.hpp
+-Edited "V_PlateCarrier2_rgr" in /Config_Clothing.hpp
+
+-Edited "class <cop_car>" in /Config_Vehicles.hpp
+
+-Edited "vehicle_cop_impound_multiplier" in /Config_Master.hpp
+
+-Removed "G_Lady_Mirror" in /Config_Clothing.hpp
+-Removed "G_Lady_Dark" in /Config_Clothing.hpp
+-Removed "G_Lady_Blue" in /Config_Clothing.hpp
+-Removed "U_B_survival_uniform" in /Config_Clothing.hpp
+
+-Enabled "vehicleShop_3D" in /Config_Master.hpp
+-Enabled "vehicle_infiniteRepair[]" in /Config_Master.hpp for "west, independent"

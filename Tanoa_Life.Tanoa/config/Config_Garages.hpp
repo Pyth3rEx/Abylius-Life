@@ -25,16 +25,6 @@ class Garages {
 
     class Tanoa {
 
-        class Land_SM_01_shed_F {
-            price = 140000;
-            garageSpawnPos[] = {-11.404,3.81494,-1.64553};
-            garageSpawnDir = 0;
-            garageBlacklists[] = {};
-        };
-
-        class Land_i_Shed_Ind_F : Land_SM_01_shed_F {
-            garageBlacklists[] = {{3078.71,11012.1,0.119904}};
-        };
 
         class Land_Addon_05_F {
             price = 130000;

@@ -11,7 +11,7 @@ class Licenses {
     class driver {
         variable = "driver";
         displayName = "STR_License_Driver";
-        price = 500;
+        price = 1000;
         illegal = false;
         side = "civ";
     };
@@ -19,7 +19,7 @@ class Licenses {
     class boat {
         variable = "boat";
         displayName = "STR_License_Boat";
-        price = 1000;
+        price = 2500;
         illegal = false;
         side = "civ";
     };
@@ -59,7 +59,7 @@ class Licenses {
     class home {
         variable = "home";
         displayName = "STR_License_Home";
-        price = 75000;
+        price = 750000;
         illegal = false;
         side = "civ";
     };
@@ -157,13 +157,13 @@ class Licenses {
     class rebel {
         variable = "rebel";
         displayName = "STR_License_Rebel";
-        price = 75000;
+        price = 3000000;
         illegal = true;
         side = "civ";
     };
 
     //Cop Licenses
-    class cAir {
+    class cAir { //Pilot
         variable = "cAir";
         displayName = "STR_License_Pilot";
         price = 15000;
@@ -171,11 +171,20 @@ class Licenses {
         side = "cop";
     };
 
-    class cg {
+    class cg { //Coast Guard
         variable = "cg";
         displayName = "STR_License_CG";
         price = 8000;
         illegal = false;
+        side = "cop";
+    };
+
+    class GIGN { //GIGN
+        variable = "GIGN";
+        displayName = "STR_License_GIGN";
+        price = 8000;
+        illegal = false;
+        conditions = "call life_coplevel >= 5";
         side = "cop";
     };
 
@@ -186,5 +195,14 @@ class Licenses {
         price = 15000;
         illegal = false;
         side = "med";
+    };
+
+    //Depanneur
+    class dep {
+        variable = "dep";
+        displayName = "STR_License_Dep";
+        price = 0;
+        illegal = false;
+        side = "civ";
     };
 };
