@@ -2101,6 +2101,17 @@
         </Key>
     </Package>
     <Package name="Garage_Strings">
+        <Key ID="STR_InsuranceApply">
+          <Original>You just insure your vehicle you are now protected against explosions!</Original>
+          <Czech> Now you insure your vehicle is now protected against explosions ! </Czech>
+          <Spanish> You just make sure your vehicle is now protected against explosions ! </Spanish>
+          <Italian> Just ensure your vehicle you are now protected against explosions ! </Italian>
+          <Polish> Just insure your vehicle you are now protected from explosion ! </Polish>
+          <Russian> You just insure your car, you are now protected against explosions ! </Russian>
+          <French> You just make your vehicle you are now protected against explosions ! </French>
+          <Portuguese> You just hold your vehicle you are now protected against explosions ! </Portuguese> 
+          <German> They only insure your vehicle, you are now protected against explosions ! </German>
+        </Key>
         <Key ID="STR_Garage_AlreadyOwned">
             <Original>This garage has already been bought!</Original>
             <Czech></Czech>
