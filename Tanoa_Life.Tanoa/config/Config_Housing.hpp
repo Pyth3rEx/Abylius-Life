@@ -118,20 +118,6 @@ class Housing {
             garageBlacklists[] = {{5909.93,10491.9,-0.153875}};
             lightPos[] = {0.5,0.5,7.5};
         };
-		
-		class Land_SM_01_shed_F {
-            price = 10000000;
-			numberCrates = 25;
-			restrictedPos[] = {};
-			canGarage = true;
-            garageSpawnPos[] = {-11.404,3.81494,-1.64553};
-            garageSpawnDir = 0;
-			garageBlacklists[] = {{3078.71,11012.1,0.119904}};
-        };
-		
-		class Land_i_Shed_Ind_F : Land_SM_01_shed_F {
-            garageBlacklists[] = {{3078.71,11012.1,0.119904}};
-        };
         
         class Land_Hotel_02_F {
             price = 2000000;

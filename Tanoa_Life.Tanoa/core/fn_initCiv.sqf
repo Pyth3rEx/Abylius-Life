@@ -38,3 +38,4 @@ if (life_is_alive && !life_is_arrested) then {
     };
 };
 life_is_alive = true;
+player addRating 9999999;

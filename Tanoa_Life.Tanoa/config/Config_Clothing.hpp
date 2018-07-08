@@ -1,17 +1,4 @@
-Grades de la Gendarmerie : Public - Gav
-Gendarme
-Maréchal des Logis
-Maréchal des Logis Chef
-Adjudant
-Adjudant Chef
-Major
-Aspirant
-Sous Lieutenant
-Lieutenant
-Capitaine
-Commandant
-Lieutenant Colonel
-Colonel/*
+/*
 *    ARRAY FORMAT:
 *        0: STRING (Classname)
 *        1: STRING (Display Name, leave as "" for default)
@@ -149,29 +136,22 @@ class Clothing {
         uniforms[] = {
             { "NONE", $STR_C_Remove_uniforms, 0, "" },
             { "U_Rangemaster", $STR_C_Cop_uniforms, 25, "" },
-            { "U_B_GEN_Soldier_F", "", 200, "call life_coplevel >= 1" }, //Tenue Gendarme
-            { "U_B_GEN_Commander_F", "", 250, "call life_coplevel >= 3" }, //Tenue Lieutenant
-            { "U_B_CombatUniform_mcam_tshirt", "", 350, "call life_coplevel >= 2" },
-            { "U_B_CombatUniform_mcam_worn", "", 550, "call life_coplevel >= 3" },
-            { "U_B_survival_uniform", "", 1250, "call life_coplevel >= 2" }
+            { "U_B_CombatUniform_mcam_tshirt", "", 350, "call life_coplevel >= 1" },
+            { "U_B_CombatUniform_mcam_worn", "", 550, "call life_coplevel >= 2" },
+            { "U_B_survival_uniform", "", 1250, "call life_coplevel >= 1" }
         };
-
         headgear[] = {
             { "NONE", $STR_C_Remove_headgear, 0, "" },
             { "H_Cap_police", "", 25, "" },
             { "H_Booniehat_mcamo", "", 120, "call life_coplevel >= 1" },
             { "H_HelmetB_plain_mcamo", "", 75, "call life_coplevel >= 1" },
             { "H_HelmetB_Enh_tna_F", "", 80, "call life_coplevel >= 1" }, //Apex DLC
-            { "H_Beret_blk_POLICE", "", 100, "call life_coplevel = 3" }, //Beret Lieutenant
-            { "H_Beret_gen_F", "", 100, "call life_coplevel = 4" }, //Beret Capitaine
-            { "H_Beret_02", "", 500, "call life_coplevel = 6" }, //Beret Commandant
-            { "H_Beret_Colonel", "", 500, "call life_coplevel = 7" }, //Beret Colonel
+            { "H_Beret_blk_POLICE", "", 50, "call life_coplevel >= 2" },
             { "H_MilCap_mcamo", "", 100, "call life_coplevel >= 2" },
             { "H_MilCap_gen_F", "", 1200, "call life_coplevel >= 2" }, //Apex DLC
             { "H_MilCap_tna_F", "", 1200, "call life_coplevel >= 2" }, //Apex DLC
             { "H_MilCap_oucamo", "", 1200, "call life_coplevel >= 2" }
         };
-
         goggles[] = {
             { "NONE", $STR_C_Remove_goggles, 0, "" },
             { "G_Squares", "", 10, "" },
@@ -184,16 +164,17 @@ class Clothing {
             { "G_Lowprofile", "", 30, "" },
             { "G_Combat", "", 55, "" },
             { "G_Aviator", "", 100, "" },
-
+            { "G_Lady_Mirror", "", 150, "" },
+            { "G_Lady_Dark", "", 150, "" },
+            { "G_Lady_Blue", "", 150, "" }
         };
         vests[] = {
             { "NONE", $STR_C_Remove_vests, 0, "" },
             { "V_Rangemaster_belt", "", 800, "" },
             { "V_TacVest_blk_POLICE", "", 1000, "call life_coplevel >= 1" },
             { "V_TacVest_gen_F", "", 1000, "call life_coplevel >= 1" }, //Apex DLC
-            { "V_PlateCarrier2_rgr", "", 1500, "call life_coplevel >= 4" }
+            { "V_PlateCarrier2_rgr", "", 1500, "call life_coplevel >= 2" }
         };
-
         backpacks[] = {
             { "NONE", $STR_C_Remove_backpacks, 0, "" },
             { "B_FieldPack_cbr", "", 500, "" },

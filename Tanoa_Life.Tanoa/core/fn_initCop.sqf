@@ -6,6 +6,7 @@
     Description:
     Cop Initialization file.
 */
+player addRating 9999999;
 waitUntil {!(isNull (findDisplay 46))};
 
 if (life_blacklisted) exitWith {

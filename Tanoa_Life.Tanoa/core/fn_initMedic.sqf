@@ -6,6 +6,7 @@
     Description:
     Initializes the medic..
 */
+player addRating 99999999;
 waitUntil {!(isNull (findDisplay 46))};
 
 if ((FETCH_CONST(life_medicLevel)) < 1 && (FETCH_CONST(life_adminlevel) isEqualTo 0)) exitWith {

@@ -45,31 +45,6 @@ class WeaponShops {
             { "optic_ACO_grn_smg", "", 2500, 1250, "" }
         };
     };
-	
-    class dep {
-        name = "Depanneur";
-        side = "civ";
-        conditions = "license_civ_dep";
-        items[] = {
-            { "hgun_Rook40_F", "", 6500, 3250, "" },
-            { "hgun_Pistol_01_F", "", 7000, 3500, "" }, //Apex DLC
-            { "hgun_Pistol_heavy_02_F", "", 9850, 4925, "" },
-            { "hgun_ACPC2_F", "", 11500, 5750, "" },
-            { "SMG_05_F", "", 18000, 9000, "" }, //Apex DLC
-            { "hgun_PDW2000_F", "", 20000, 10000, "" }
-        };
-        mags[] = {
-            { "16Rnd_9x21_Mag", "", 125, 60, "" },
-            { "6Rnd_45ACP_Cylinder", "", 150, 75, "" },
-            { "9Rnd_45ACP_Mag", "", 200, 100, "" },
-            { "30Rnd_9x21_Mag", "", 250, 125, "" },
-            { "30Rnd_9x21_Mag_SMG_02", "", 250, 125, "" }, //Apex DLC
-            { "10Rnd_9x21_Mag", "", 250, 125, "" } //Apex DLC
-        };
-        accs[] = {
-            { "optic_ACO_grn_smg", "", 2500, 1250, "" }
-        };
-    };
 
     class rebel {
         name = "Mohammed's Jihadi Shop";
@@ -85,8 +60,7 @@ class WeaponShops {
             { "arifle_AKM_F", "", 22000, 11000, "" }, //Apex DLC
             { "arifle_ARX_blk_F", "", 22000, 11000, "" }, //Apex DLC
             { "arifle_SPAR_01_blk_F", "", 33000, 16500, "" }, //Apex DLC
-            { "arifle_CTAR_blk_F", "", 30000, 15000, "" }, //Apex DLC
-			{ "LMG_Zafir_F", "", 200000, 100000, "" }
+            { "arifle_CTAR_blk_F", "", 30000, 15000, "" } //Apex DLC
         };
         mags[] = {
             { "30Rnd_556x45_Stanag", "", 300, 150, "" },
@@ -95,9 +69,7 @@ class WeaponShops {
             { "30Rnd_65x39_caseless_green", "", 275, 140, "" },
             { "10Rnd_762x54_Mag", "", 500, 250, "" },
             { "20Rnd_556x45_UW_mag", "", 125, 60, "" },
-            { "30Rnd_580x42_Mag_F", "", 125, 60, "" }, //Apex DLC
-			{ "150Rnd_762x54_Box", "", 5000, 2500, "" },
-			{ "150Rnd_762x54_Box_Tracer", "", 10000, 5000, "" }
+            { "30Rnd_580x42_Mag_F", "", 125, 60, "" } //Apex DLC
         };
         accs[] = {
             { "optic_ACO_grn", "", 3500, 1750, "" },
